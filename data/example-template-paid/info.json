@@ -1,0 +1,11 @@
+{
+  "title": "Example Paid Template",
+  "description": "Short summary.",
+  "price": "paid",
+  "price_label": "$5+",
+  "listing": "https://payhip.com/b/YOUR-LISTING",
+  "tags": ["light"],
+  "banner": "previews/banner.png",
+  "previews": ["previews/preview-1.png", "previews/preview-2.png"],
+  "notes": ["Purchase includes the full code."]
+}

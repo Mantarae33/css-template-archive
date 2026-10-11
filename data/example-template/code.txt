@@ -1,0 +1,11 @@
+<style>
+.my-card {
+  background: #111;
+  color: #ffb6d9;
+  padding: 1rem;
+}
+</style>
+
+<div class="my-card">
+  <h2>Hello</h2>
+</div>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Templates</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="templates">
+  <div id="site-header"></div>
+  <main>
+    <h1>CSS Templates</h1>
+    <p class="lead">Short description of your library goes here.</p>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search templates..." aria-label="Search templates">
+      <select id="price-filter" aria-label="Filter by price">
+        <option value="all">All</option>
+        <option value="free">Free</option>
+        <option value="paid">Paid</option>
+      </select>
+    </div>
+    <div id="tag-bar" class="tag-bar"></div>
+
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>No templates match that search.</p>
+  </main>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/templates.js"></script>
+</body>
+</html>
